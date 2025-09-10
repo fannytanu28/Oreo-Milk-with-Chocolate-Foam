@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tahapan Pembuatan</title>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Open Sans', sans-serif;
+            background-color: #f0f0f0;
+            color: #333;
+            line-height: 1.6;
+            padding: 20px;
+        }
+        .container {
+            max-width: 800px;
+            margin: auto;
+            background: #fff;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+        h2 {
+            color: #5d4037;
+            text-align: center;
+            border-bottom: 2px solid #a0522d;
+            padding-bottom: 10px;
+        }
+        ol {
+            padding-left: 0;
+            list-style: none; /* Menghilangkan nomor default */
+        }
+        li {
+            counter-increment: step-counter; /* Menambahkan counter */
+            padding: 15px 20px;
+            margin-bottom: 15px;
+            background-color: #fafafa;
+            border-left: 5px solid #a0522d;
+            border-radius: 5px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+            position: relative;
+        }
+        li::before {
+            content: counter(step-counter); /* Menampilkan nomor dari counter */
+            position: absolute;
+            left: -20px;
+            top: 50%;
+            transform: translateY(-50%);
+            background-color: #a0522d;
+            color: white;
+            font-weight: bold;
+            font-size: 1.2em;
+            width: 35px;
+            height: 35px;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        .navigation {
+            text-align: center;
+            margin-top: 30px;
+        }
+        .navigation a {
+            padding: 12px 25px;
+            text-decoration: none;
+            border-radius: 8px;
+            margin: 0 10px;
+            font-weight: bold;
+            transition: background-color 0.3s ease, transform 0.3s ease;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+        }
+        .back-button {
+            background-color: #ccc;
+            color: #333;
+        }
+        .back-button:hover {
+            background-color: #999;
+            transform: translateY(-3px);
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h2>Tahapan Pembuatan</h2>
+    <p>Ikuti langkah-langkah di bawah ini untuk mendapatkan hasil terbaik.</p>
+    
+    <ol>
+        <li>Tahapan 1 (Hancurkan oreo pada zip plastik sehingga menjadi remahan. Namun, jangan terlalu halus, gunakan ulekan cabai secara perlahan.)</li>
+        <li>Tahapan 2 (Pindahkan 3 sendok remahan oreo kedalam gelas kaca yang sudah disiapkan.)</li>
+        <li>Tahapan 3 (Campurkan sedikit susu UHT pada remahan oreo agar rebahan dapat ditata disekeliling gelas kaca.)</li>
+        <li>Tahapan 4 (Setelah rebahan sudah disetting dengan baik, tuangkan 35ml susu UHT sedalam gelas kaca secara perlahan.)</li>
+        <li>Tahapan 5 (Tambahkan es batu secukupnya dan jangan lupa untuk menyisahkan tempat pada gelas.)</li>
+        <li>Tahapan 6 (Pada wadah terpisah, campurkan 1/4 gelas heavy cream, 1/4 sendok teh cocoa powder dan 1/2 sendok teh simple syrup, tambahkan juga sedikit susu untuk menambah cita rasa.)</li>
+        <li>Tahapan 7 (Kemudian, mixer semua bahan diatas dengan milk frother hingga menjadi foam. Umumnya, dibutuhkan waktu 3 menit, namun kembali lagi dengan daya alat yang digunakan.)</li>
+        <li>Tahapan 8 (Lalu, tuangkan foam yang sudah jadi keatas gelas kaca secara perlahan. Pastikan tidak ada yang tumpah!)</li>
+        <li>Tahapan 9 (Oreo milk with chocolate foam siap disajikan. Jangan lupa untuk menggunakan sedotan minuman agar lebih nikmat.)</li>
+    </ol>
+
+    <div class="navigation">
+        <a href="bahan_alat.html" class="back-button">Kembali ke Bahan & Alat</a>
+        <a href="hasil_akhir.html" class="home-button">Lihat Hasil Akhir</a> </div>
+    </div>
+</div>
+
+</body>
+</html>
